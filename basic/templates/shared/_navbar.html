@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="{% url 'showmain' %}">Home</a>
+      <!-- href 값을 'showmain' url로 해주어야 first, second에서 Home을 눌렀을 때 Home(mainpage)으로 이동할 수 있습니다. -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
